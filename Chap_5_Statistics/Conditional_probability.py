@@ -28,8 +28,8 @@ print("P( both | older ) : ", both_girls/older_girl)
 # 최소 한 명이 딸일 경우, 둘 다 딸일 확률
 print("P( both | either ) : ", both_girls/either_girl)
 
-# P(b|g) = P(b,g)/P(g)
-# = (1/2 * 1/2) / (3/4)
+# P(b|g) = P(b,g)/P(g) = P(b)/P(g)
+# = (1/4) / (3/4)
 # = 1/3
 
 # P( both | older ) :  0.5007089325501317 -> 1/2
